@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/bootstrap.min.css">
+    <link rel="stylesheet" href="scss/jquery.fancybox.min.css">
     <link rel="stylesheet" href="scss/swiper-bundle.css">
     <link rel="stylesheet" href="scss/swiper-bundle.min.css">
     <link rel="stylesheet" href="scss/style.css">
@@ -64,7 +65,9 @@
             <!-- SERVICE -->
             <section class="service">
                 <div class="container">
-                    
+                    <h1 class="section-title">
+                        Виды услуг
+                    </h1>
                     <div class="row service-row">
                         <div class="col-lg-2 col-md-6 col-12">
                             <div class="service__column">
@@ -131,19 +134,20 @@
                     </h1>
                     <div class="suggestion__wrapper">
                         <div class="row suggestion-row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-md-12">
                                 <div class="suggestion__item left">Оценим<br>налоговые риски</div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-md-12">
                                 <div class="suggestion__item right">Конкуретная цена</div>
                             </div>
                         </div>
                         <div class="row suggestion-row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-6 col-md-12">
                                 <div class="suggestion__item left middle">Гарантия<br>конфиденциальности</div>
                             </div>
-                            <div class="col-lg-4">
-                                <div class="suggestion__item right middle">Найдем возможность<br>сэкономить на налогах</div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="suggestion__item right middle">Найдем возможность<br>сэкономить на налогах
+                                </div>
                             </div>
                         </div>
                         <div class="row suggestion-row">
@@ -155,15 +159,202 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </section>
+            <!-- END OF SUGGESTION -->
+            <section class="reviews">
+                <div class="container">
+                    <h1 class="section-title">Отзывы о нас</h1>
+                    <div class="row reviews-row">
+                        <div class="swiper-container reviews-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide col-lg-4">
+                                    <a class="reviews__column reviews-gallery" data-fancybox="gallery_reviews"
+                                        rel="group" href="img/putty-64bit-0.73-installer.msi.png">
+                                        <img src="img/putty-64bit-0.73-installer.msi.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide col-lg-4">
+                                    <a class="reviews__column reviews-gallery" data-fancybox="gallery_reviews"
+                                        rel="group" href="img/putty-64bit-0.73-installer.msi.png">
+                                        <img src="img/putty-64bit-0.73-installer.msi.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide col-lg-4">
+                                    <a class="reviews__column reviews-gallery" data-fancybox="gallery_reviews"
+                                        rel="group" href="img/putty-64bit-0.73-installer.msi.png">
+                                        <img src="img/putty-64bit-0.73-installer.msi.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide col-lg-4">
+                                    <a class="reviews__column reviews-gallery" data-fancybox="gallery_reviews"
+                                        rel="group" href="img/putty-64bit-0.73-installer.msi.png">
+                                        <img src="img/putty-64bit-0.73-installer.msi.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-button-next reviews-arrow"></div>
+                            <div class="swiper-button-prev reviews-arrow"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- TRUST -->
+            <section class="trust">
+                <div class="container">
+                    <h1 class="section-title">Нам доверяют</h1>
+                    <div class="row trust-row justify-content-between">
+                        <div class="swiper-container trust-slider">
+                            <div class="swiper-wrapper">
+                                <div class="col-md-2 trust__column">
+                                    <img src="img/samsung.png" alt="">
+                                </div>
+                                <div class="col-md-2 trust__column">
+                                    <img src="img/acer.png" alt="">
+                                </div>
+                                <div class="col-md-2 trust__column">
+                                    <img src="img/samsung.png" alt="">
+                                </div>
+                                <div class="col-md-2 trust__column">
+                                    <img src="img/acer.png" alt="">
+                                </div>
+                                <div class="col-md-2 trust__column">
+                                    <img src="img/samsung.png" alt="">
+                                </div>
+                                <div class="col-md-2 trust__column">
+                                    <img src="img/acer.png" alt="">
+                                </div>
+                                <div class="col-md-2 trust__column">
+                                    <img src="img/samsung.png" alt="">
+                                </div>
+                                <div class="col-md-2 trust__column">
+                                    <img src="img/acer.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END OF TRUST -->
+            <!-- TEACHERS -->
+            <section class="teachers">
+                <div class="container">
+                    <h1 class="section-title">
+                        Наши профессионалы
+                    </h1>
+                    <div class="row teachers-row">
+                        <div class="swiper-container teachers-slider">
+                            <div class="swiper-wrapper">
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="teachers__column">
+                                        <div class="teachers__img">
+                                            <img src="img/tatyana.png" alt="">
+                                        </div>
+                                        <div class="teachers__name">Першина Татьяна<br>Юрьевна</div>
+                                        <div class="teachers__intro">Першина Татьяна Юрьевна Сертифицированный бухгалтер
+                                            РК, САР, п
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="teachers__column">
+                                        <div class="teachers__img">
+                                            <img src="img/tatyana.png" alt="">
+                                        </div>
+                                        <div class="teachers__name">Першина Татьяна<br>Юрьевна</div>
+                                        <div class="teachers__intro">Першина Татьяна Юрьевна Сертифицированный бухгалтер
+                                            РК, САР, п
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="teachers__column">
+                                        <div class="teachers__img">
+                                            <img src="img/tatyana.png" alt="">
+                                        </div>
+                                        <div class="teachers__name">Першина Татьяна<br>Юрьевна</div>
+                                        <div class="teachers__intro">Першина Татьяна Юрьевна Сертифицированный бухгалтер
+                                            РК, САР, п
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="teachers__column">
+                                        <div class="teachers__img">
+                                            <img src="img/tatyana.png" alt="">
+                                        </div>
+                                        <div class="teachers__name">Першина Татьяна<br>Юрьевна</div>
+                                        <div class="teachers__intro">Першина Татьяна Юрьевна Сертифицированный бухгалтер
+                                            РК, САР, п
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="teachers__column">
+                                        <div class="teachers__img">
+                                            <img src="img/tatyana.png" alt="">
+                                        </div>
+                                        <div class="teachers__name">Першина Татьяна<br>Юрьевна</div>
+                                        <div class="teachers__intro">Першина Татьяна Юрьевна Сертифицированный бухгалтер
+                                            РК, САР, п
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END OF TEACHERS -->
+            <!-- ORDER -->
+            <section class="request">
+                <div class="container">
+                    <h1 class="section-title">
+                        Оставьте заявку
+                    </h1>
+                    <h4 class="section-subtitle">
+                        Закажите полный и детальный анализ налоговой и бухгалтерской отчетности<br> прямо сейчас
+                    </h4>
+                    <row class="request-row">
+                        <div class="col-lg-4 offset-lg-8">
+                            <form class="request-form ajax_form" action="index.php?id=1" method="post">
+                                <div class="request-form__input">
+                                    <input type="text" name="name" placeholder="Имя">
+                                </div>
+                                <div class="request-form__input">
+                                    <input type="text" name="number" placeholder="Телефон" maxlength="18">
+                                </div>
+
+                                <!-- <div class="text-center button-wrapper wrap-form">
+                                    <button type="submit" class="btn_form">Оставить заявку</button>
+                                </div> -->
+                                <div class="request-form__input select-input">
+                                <select id="audit" name="audit">
+                                    <option value="" disabled selected>Вид аудита</option>
+                                    <option value="volvo">Volvo</option>
+                                    <option value="saab">Saab</option>
+                                    <option value="fiat">Fiat</option>
+                                    <option value="audi">Audi</option>
+                                  </select>
+                                  <img src="img/select-arrow.png" class="select-arrow" alt="">
+                                </div>
+                            </form>
+                        </div>
+                    </row>
+                </div>
+            </section>
+            <!-- END OF ORDER -->
         </div>
         <div class="footer"></div>
     </div>
-
-
     <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
