@@ -941,6 +941,8 @@ a {
   border-bottom-left-radius: 12%;
   border-bottom-right-radius: 12%;
   margin-top: 63px;
+  position: relative;
+  z-index: 2;
 }
 
 .request-form__input {
@@ -1277,19 +1279,19 @@ select ::-ms-expand {
   background: #f0f0f0;
   line-height: 0;
   position: relative;
+  margin: 0 auto;
 }
 
 .scrollbar .handle {
   width: 100px;
   /* overriden if dynamicHandle: 1 */
   height: 100%;
-  background: #222;
 }
 
 .scrollbar .handle .mousearea {
   position: absolute;
   top: -10px;
-  right: 0;
+  left: 0;
   width: 20px !important;
   height: 20px;
   border-radius: 20px;

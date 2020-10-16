@@ -148,3 +148,12 @@ $wrap.find('.add').on('click', function () {
 $wrap.find('.remove').on('click', function () {
   $frame.sly('remove', -1);
 });
+
+$('.scrollbar').css("width","329px");
+
+if ($(window).width() == 768) {
+  $('.scrollbar').css("width","250px");
+} else if ($(window).width() < 767) {
+  $('.scrollbar').css("width","107.5px");
+}
+ 
